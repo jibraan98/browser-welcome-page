@@ -7,8 +7,7 @@ function Weather() {
     const [lat, setLat] = useState(0)
     const [lon, setLon] = useState(0)
 
-    const api_key = process.env.REACT_APP_API_KEY
-    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api_key}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=b660d6b391d8fcdd1a20730ff1c34c0c&units=metric`;
 
     
     useEffect(() => {
